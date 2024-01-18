@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Slabo+27px&display=swap');
+
+
+html {
+    height: 100%;
+}
+
+body {
+    color: antiquewhite;
+    background-image: url(https://www.lagranvia.com.sv/storage/shops/m3crkoRSQF5qf6KK76kGVOIqgTVDDh2lDn5TcJJd.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header{
+    background-color: #191c54;
+    color: white;
+    justify-content: center;
+}
+
+.header .navbar{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    position: fixed;
+    background-color: rgb(162, 11, 11);
+}
+
+.header .navbar .logo a h2{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    transition: 0.5;
+    display: flex;
+}
+
+.header .navbar .menu{
+    display: flex;
+    justify-content: center;
+}
+
+.header .navbar .menu li{
+    list-style: none;
+}
+
+.header .navbar .menu li a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px 40px;
+    transition: 0.5;
+}
+
+.speach {
+    padding: 4rem;
+    text-align: center;
+    text-shadow: 4px 4px black;
+    font-family: 'Slabo 27px', serif;
+}
+
+.ofertas{
+    background-color: #00000054;
+    padding-top: 30px;
+    color: black;
+    justify-content: center;
+}
+
+.ofertas .ofertas-destacadas{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+.ofertas .ofertas-destacadas h2{
+    margin-top: 20px;
+    text-shadow: 3px 3px rgb(117, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.2em;
+}
+
+.ofertas .ofertas-container{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;;
+}
+
+.ofertas .ofertas-container .card{
+    width: 18rem;
+    background-color: rgba(163, 0, 0, 0.94);
+    justify-content: 	center	;
+}
+
+.ofertas .ofertas-container .card .card-img1{
+    width: auto;
+    height: 300px;
+    background-image: url(https://scavocollection.com/cdn/shop/files/image00002_ab109076-b873-4222-983c-155a1d4e40c1.jpg?v=1694541013&width=533);
+    background-size: cover;
+}
+
+.ofertas .ofertas-container .card .card-img2{
+    width: auto;
+    height: 300px;
+    background-image: url(https://sstoresv.com/wp-content/uploads/2023/10/apple-iphone-15-pro-max-blanco-titanio-01.png);
+    background-size: cover;
+}
+
+.ofertas .ofertas-container .card .card-img3{
+    width: auto;
+    height: 300px;
+    background-image: url(https://www.prado.com.sv/media/catalog/product/r/e/refrigeradora-french-door-samsung-22cp-rf22a4010s9-ap-acero-inoxidable-174413.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700);
+    background-size: cover;
+}
+
+.ofertas .ofertas-container .card .card-title{
+    padding: 20px;
+}
+
+.ofertas .ofertas-container .card .card-title h4{
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.ofertas .ofertas-container .card .card-title p{
+    color: white;
+}
+
+.ofertas .ofertas-container .card .card-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.map iframe {
+    height: 500px;
+    display: flex;
+}
+
+.map h2{
+    border: white;
+    background-color: tomato;
+}
+
+.footer{
+    background-color: #191c5482;
+}
+
+.footer .contact-form{
+    display: flex;
+}
+
+.footer .contact-form .box textarea {
+    width: 900px;
+}
